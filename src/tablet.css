@@ -1,0 +1,37 @@
+/*Navbar*/
+.navbar ul{
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/*Headings*/
+.headings {
+  font-size: 2.5rem;
+}
+
+/*About*/
+#pic{
+  flex-direction:column;
+  justify-content: center;
+  align-items:center;
+}
+#pic img{
+  width:475px;
+  height: 300px;
+}
+#intro h2{
+  text-align:center;
+  padding: 10px;
+}
+.sub{
+   text-align:center;
+  
+}
+
+/*Contact*/
+.wrap{
+  width:60%;
+}
+#send{
+  width:20%;
+}

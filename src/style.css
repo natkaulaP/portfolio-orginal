@@ -1,0 +1,225 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+/*Navbar*/
+.navbar{
+display: flex;
+justify-content: center;
+align-items: center;
+background-color:rgba(0,0,0,0.5);
+position: sticky;
+top: 0;
+}
+.navbar ul{
+display: flex;
+list-style: none; 
+margin:20px 0px;
+}
+.navbar  li{ 
+  font-family: century;
+  font-size: 1.1rem; 
+  font-weight: bold;
+}
+.navbar  a{
+  text-decoration: none;
+  color:white; 
+  padding:8px 25px; 
+  transition: all 0.5s ease;
+}
+.navbar a:hover{
+  background-color:white;
+  color:black; 
+  box-shadow: 0 0 10px white,0 0 15px white ;
+}
+
+/*Home section*/
+#home{
+  display:flex;
+  flex-direction:column;
+  background:url('/portfolio-orginal/images/rose.jpg') no-repeat center center/cover ;
+  height: 840px;
+  justify-content:center;
+  color:white;
+}  
+#home  ::before{
+  content: "";
+  position:absolute;
+  top: 0;
+  right: 0;
+  background-color:black;
+  height: 90px;
+  width:100%;
+  z-index: -1;
+  opacity:0.8;
+}
+.main{
+  display:flex;
+  flex-direction:column;
+ /*border:1px solid white;*/
+  align-items:center;
+  position:absolute;
+  top:30%; 
+  right:10%;
+}
+.headings{
+  font-family: 'Playfair Display', serif;;
+  font-size:3rem;
+  text-align: center;
+  margin:40px 0px;
+}
+.sub-headings{
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+}
+.btn{
+  padding:10px 35px;
+  background-color: transparent;
+  border:1px solid white;
+  color:white;
+  outline: none;
+  transition: 0.6s ease;
+}
+.btn:hover{
+  cursor: pointer;
+  background-color:white;
+  color:black;
+  box-shadow: 0 0 5px white,0 0 10px white ,0 0 15px white, 0 0 35px white,0 0 120px white; 
+  font-weight: bold;
+}
+
+
+/*About section*/
+#about{
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 20px;
+  margin-bottom:50px ;
+}
+#pic{
+  display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+}
+#pic img{
+  width: 575px;
+height:400px;
+}
+#intro{
+  display:flex;
+flex-direction: column;
+text-align: justify;
+padding: 10px;
+}
+#intro h2{
+  font-size:2rem;
+  margin-bottom:20px;
+  font-family: 'Playfair Display', serif;
+}
+.social-links a{
+  margin:0 20px;
+  color: #f70707;
+}
+
+/*Gallery section*/
+#gallery{
+  display:flex;
+  flex-direction: column;
+  background-color: #000000;
+  color: white;
+  align-items: center;
+  padding:20px;
+}
+.gallery{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+   box-sizing: border-box;
+}
+.gallery img{
+  width:360px;
+height:240px;
+margin:10px;
+border-radius: 4px;
+border: 1px solid white;
+ 
+}
+/*Projects*/
+#gallery-portfolio{
+   display:flex;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+  align-items: center;
+  padding:20px;
+  
+}
+.link {
+  display:flex;
+flex-direction: column;
+box-sizing: border-box;
+align-items: center;
+margin:20px 0px;
+color: red;
+text-decoration: none;
+}
+.button{
+   padding:10px;
+width:80%;
+margin:20px;
+border:none;
+  outline:none;
+  color:white;
+}
+.button:hover{
+  cursor: pointer;
+  background:white;
+  color:black;
+  box-shadow: 0 0 5px white,0 0 15px white ,0 0 35px white,0 0 120px white; 
+  font-weight: bold;
+  border:1px solid black;
+}
+
+
+/*Contact section*/
+#contact{
+  display:flex;
+flex-direction: column;
+box-sizing: border-box;
+background-color:white;
+color:black;
+padding:20px;
+font-family: 'Playfair Display', serif;
+align-items: center;
+}
+.wrap{
+  display:flex;
+flex-direction: column;
+box-sizing: border-box;
+align-items: center;
+margin:20px 0px;
+}
+
+#send{
+  padding:10px;
+width:80%;
+margin:20px;
+border:none;
+  outline:none;
+  color:black;
+}
+#send:hover{
+  cursor: pointer;
+  background:black;
+  color:white;
+  box-shadow: 0 0 5px black ,0 0 15px black  ,0 0 35px black ,0 0 120px black ; 
+  font-weight: bold;
+  border:1px solid white
+}
