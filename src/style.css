@@ -28,7 +28,8 @@ margin:20px 0px;
 }
 .navbar  a{
   text-decoration: none;
-  color:white; 
+  color:white;
+  border-radius: 3px; 
   padding:8px 25px; 
   transition: all 0.5s ease;
 }
